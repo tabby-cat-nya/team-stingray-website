@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 const props = defineProps({
   href: String,
   text: String
@@ -29,7 +29,7 @@ const props = defineProps({
     }
 
     .button:hover{
-        filter: brightness(200%);
+        background-color: #0059ff; 
     }
 
     p{
