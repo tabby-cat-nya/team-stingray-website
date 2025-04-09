@@ -22,11 +22,12 @@ const props = defineProps<{
         <div class="content">
             <h3>{{ props.name }}</h3>
             <p class="desc">{{ props.description }}</p>
-            <ClientOnly>
-                <div class="buttons">
+            <div class="buttons">
                     <BoldButton v-for="(data, i) of buttons" :key="i" class="button" :text="data.text"
                         :href="data.link" />
                 </div>
+            <ClientOnly>
+                
             </ClientOnly>
         </div>
     </a>
