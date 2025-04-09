@@ -27,6 +27,7 @@ const alexButtons: Ref<ButtonData[]> = ref([
 ]);
 
 const xanderButtons: Ref<ButtonData[]> = ref([
+    { link: "https://xanderakkari.com/", text: "Portfolio" },
     {link: "https://www.linkedin.com/in/xander-akkari/", text:"Linkedin"},
     {link: "https://cookiespl.itch.io/", text:"Itch.io"}
 ]);
@@ -71,7 +72,7 @@ const ethanButtons: Ref<ButtonData[]> = ref([
                 :buttons="ethanButtons" />
                 
             <MemberCard href="https://www.linkedin.com/in/xander-akkari/" name="Xander Akkari"
-                description="Game Developer and Multimedia Specialist, for Arcane Raiders my main role was game programmign and multiplayer implementation" image="/img/xander.jpg" :buttons="xanderButtons" />
+                description="I'm a game developer and multimedia specialist! I worked on the game design, programming and multiplayer implementation for Arcane Raiders. I also do video editing and any miscellaneous art that we need!" image="/img/xander.jpg" :buttons="xanderButtons" />
             <MemberCard href="https://www.linkedin.com/in/alex-valacos-326490256/" name="Alex Valacos"
                 description="I was one of the main programmers and designers for Arcane Raiders, focussing on enemy logic and balance" image="/img/alex.jpg" :buttons="alexButtons" />
         </div>
