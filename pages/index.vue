@@ -62,10 +62,13 @@ const ethanButtons: Ref<ButtonData[]> = ref([
                 description="I specialise in creating art and animations! I'm the art director for most of our projects."
                 image="/img/lauren.jpg" 
                 :buttons="laurenButtons" />
-            <MemberCard href="https://tabbycat.dev" name="Tom Howarth"
-                description="I also go by Tabby! I specialise in game design, managing the process of getting Arcane Raiders to Steam and other neat features like Acheivements and Discord integration, click to view my website at tabbycat.dev!"
+            <MemberCard href="" name="Tom Howarth"
+                description="I specialise in game design, managing the process of getting Arcane Raiders to Steam and other neat features like Acheivements and Discord integration"
                 image="/img/tabby.jpg"
-                :buttons="tabbyButtons" />
+                :buttons='[
+    { link: "https://tabbycat.dev", text: "Portfolio" },
+    { link: "https://www.linkedin.com/in/tom--howarth/", text: "Linkedin" }
+]' />
             <MemberCard href="https://www.linkedin.com/in/ethan-lucas/" name="Ethan Lucas"
                 description="Hello! My name is Ethan and I am a full-time Bachelor of Games Development student at the University of Technology Sydney. As a part of this degree, I have created various projects that prove knowledge in the field of game design and software usability. I have a great interest in digital entertainment media and being a part of successful teams."
                 image="/img/ethan.jpg"
