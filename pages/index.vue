@@ -66,7 +66,7 @@ const ethanButtons: Ref<ButtonData[]> = ref([
                 description="I specialise in game design, managing the process of getting Arcane Raiders to Steam and other neat features like Acheivements and Discord integration"
                 image="/img/tabby.jpg"
                 :buttons='[
-    { link: "https://tabbycat.dev", text: "Portfolio" },
+    { link: "https://tomhowarth.vercel.app/", text: "Portfolio" },
     { link: "https://www.linkedin.com/in/tom--howarth/", text: "Linkedin" }
 ]' />
             <MemberCard href="https://www.linkedin.com/in/ethan-lucas/" name="Ethan Lucas"
